@@ -1,0 +1,15 @@
+{
+	"name": "factoryazureprojectvinay",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "685847a9-41b8-4921-866e-e0029511de76",
+		"tenantId": "7c365056-5736-403d-8798-986f347282f6"
+	}
+}
