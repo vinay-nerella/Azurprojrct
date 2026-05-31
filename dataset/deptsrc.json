@@ -1,0 +1,36 @@
+{
+	"name": "deptsrc",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "dept (1).csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "deptno",
+				"type": "String"
+			},
+			{
+				"name": "dname",
+				"type": "String"
+			},
+			{
+				"name": "loc",
+				"type": "String"
+			}
+		]
+	}
+}
